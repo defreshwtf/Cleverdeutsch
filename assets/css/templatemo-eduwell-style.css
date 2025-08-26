@@ -21,6 +21,7 @@ Table of contents
 10. preloader
 11. search
 12. portfolio
+13. modal
 
 --------------------------------------------- */
 /* 
@@ -125,12 +126,12 @@ body {
 }
 
 ::selection {
-  background: #dc8cdb;
+  background: #116eee;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #dc8cdb;
+  background: #116eee;
   color: #fff;
 }
 
@@ -154,7 +155,7 @@ body {
   font-size: 13px;
   color: #fff;
   background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: linear-gradient(-145deg, rgba(253,62,114,1) 0%, rgba(17,110,238,1) 100%);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -165,13 +166,13 @@ body {
 
 .main-button-gradient a:hover {
   background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: linear-gradient(-145deg, rgba(253,62,114,1) 0%, rgba(17,110,238,1) 100%);
   opacity: 0.9;
 }
 
 .white-button a {
   font-size: 13px;
-  color: #dc8cdb;
+  color: #116eee;
   background-color: #fff;
   padding: 12px 30px;
   display: inline-block;
@@ -188,7 +189,7 @@ body {
 .text-button a {
   font-size: 14px;
   font-weight: 500;
-  color: #dc8cdb;
+  color: #116eee;
   text-decoration: underline !important;
   transition: all .3s;
 }
@@ -232,7 +233,7 @@ section {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #116eee;
 }
 
 .section-heading p {
@@ -247,7 +248,7 @@ header
 */
 .background-header {
   background: rgb(219,138,222) !important;
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
+  background: linear-gradient(-145deg, rgba(253,62,114,1) 0%, rgba(17,110,238,1) 100%) !important;
   height: 80px!important;
   position: fixed!important;
   top: 0!important;
@@ -405,7 +406,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #dc8cdb!important;
+  color: #116eee!important;
   padding-left: 25px;
 }
 
@@ -545,7 +546,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #dc8cdb;
+  color: #116eee;
 }
 
 @media (max-width: 1200px) {
@@ -564,7 +565,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #dc8cdb!important;
+    color: #116eee!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -622,7 +623,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #dc8cdb!important;
+    color: #116eee!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -732,7 +733,7 @@ section.main-banner {
 
 .main-banner .header-text h2 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #116eee;
 }
 
 .main-banner .main-button-gradient {
@@ -788,7 +789,7 @@ services
 }
 
 .services .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #116eee;
 }
 
 
@@ -848,8 +849,8 @@ section.our-courses .naccs .menu div {
 }
 
 section.our-courses .naccs .menu div.active {
-  color: #dc8cdb;
-  border: 3px solid rgba(219,138,222,1);
+  color: #116eee;
+  border: 3px solid rgba(253,62,114,1);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -891,7 +892,7 @@ section.our-courses ul.nacc li .left-image img {
 section.our-courses ul.nacc li .left-image .price h6 {
   position: absolute;
   background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: linear-gradient(-145deg, rgba(253,62,114,1) 0%, rgba(17,110,238,1) 100%);
   color: #fff;
   top: 20px;
   left: 20px;
@@ -1057,7 +1058,7 @@ section.testimonials:after {
 .testimonials .item span {
   font-size: 13px;
   font-weight: 700;
-  color: #dc8cdb;
+  color: #116eee;
 }
 
 .testimonials .item img {
@@ -1082,7 +1083,7 @@ section.testimonials:after {
 }
 
 .testimonials .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #116eee;
 }
 
 
@@ -1133,7 +1134,7 @@ section.contact-us .contact-info .icon i {
   line-height: 50px;
   border-radius: 50%;
   background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: linear-gradient(-145deg, rgba(253,62,114,1) 0%, rgba(17,110,238,1) 100%);
   color: #fff;
 }
 
@@ -1145,7 +1146,7 @@ section.contact-us .contact-info h4 {
 
 section.contact-us .contact-info span {
   font-size: 15px;
-  color: #dc8cdb;
+  color: #116eee;
   font-weight: 700;
 }
 
@@ -1201,7 +1202,7 @@ section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
   background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: linear-gradient(-145deg, rgba(253,62,114,1) 0%, rgba(17,110,238,1) 100%);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1234,13 +1235,13 @@ section.contact-us ul.social-icons li a {
   text-align: center;
   line-height: 44px;
   background-color: #fff;
-  color: #dc8cdb;
+  color: #116eee;
   border-radius: 50%;
   transition: all .5s;
 }
 
 section.contact-us ul.social-icons li a:hover {
-  background-color: #dc8cdb;
+  background-color: #116eee;
   color: #fff;
 }
 
@@ -1401,13 +1402,13 @@ section.our-team .naccs .menu div h4 {
 section.our-team .naccs .menu div span {
   font-size: 12px;
   text-transform: uppercase;
-  color: #dc8cdb;
+  color: #116eee;
   font-weight: 700;
   display: block;
 }
 
 section.our-team .naccs .menu div.active h4 {
-  color: #dc8cdb;
+  color: #116eee;
 }
 
 section.our-team ul.nacc {
@@ -1473,7 +1474,7 @@ section.our-team ul.nacc li .left-content span a {
 }
 
 section.our-team ul.nacc li .left-content span a:hover {
-  color: #dc8cdb;
+  color: #116eee;
 }
 
 section.our-team ul.nacc li .left-content .last-span a {
@@ -1558,7 +1559,7 @@ section.our-office #video .thumb .play-button a {
   color: #fff;
   font-size: 22px;
   background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: linear-gradient(-145deg, rgba(253,62,114,1) 0%, rgba(17,110,238,1) 100%);
 }
 
 section.our-office #video img {
@@ -1699,7 +1700,7 @@ section.more-info .count-area-content .count-digit {
   height: 80px;
   line-height: 80px;
   font-size: 28px;
-  color: #dc8cdb;
+  color: #116eee;
   font-weight: 900;
   margin-bottom: -40px;
   position: relative;
@@ -1719,6 +1720,175 @@ section.more-info .count-area-content .count-title {
   z-index: 1;
 }
 
+.terms-row {
+  display: flex;
+  align-items: center;
+}
+
+
+.terms-check {
+  flex: 1; /* 1/3 del espacio */
+  display: flex;
+  justify-content: left; /* centra el checkbox en su columna */
+
+}
+
+.terms-label {
+  flex: 2; /* 2/3 del espacio */
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+/*
+---------------------------------------------
+modal
+---------------------------------------------
+
+*/
+
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* Contenedor del modal */
+.modal-content {
+  background: #fff;
+  margin: 5% auto;
+  padding: 20px 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 80%;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  animation: fadeIn 0.3s ease;
+}
+
+/* Cabecera del modal */
+.modal-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+/* Cuerpo del modal */
+.modal-body {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Botón cerrar */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover {
+  color: #000;
+}
+
+/* 
+---------------------------------------------
+Personal information
+--------------------------------------------- 
+*/
+/* Contenedor principal del módulo dentro del modal */
+.pm-container {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 15px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Foto */
+.pm-photo {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  text-align: center;
+}
+
+.pm-photo img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 20%;
+  border: 4px solid #ddd;
+}
+
+/* Info personal */
+.pm-personal-info {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.pm-personal-info h3 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Secciones de texto */
+.pm-info-sections {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pm-section {
+  background: #f9fafb;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.pm-section h4 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+.pm-section p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Responsive: en móviles todo en columna */
+@media (max-width: 768px) {
+  .pm-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+
+  .pm-photo,
+  .pm-personal-info,
+  .pm-info-sections {
+    grid-column: 1 / 2;
+    grid-row: auto;
+  }
+}
 
 /* 
 ---------------------------------------------
@@ -1755,7 +1925,7 @@ body {
   }
   .header-area {
     background: rgb(219,138,222) !important;
-    background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
+    background: linear-gradient(-145deg, rgba(253,62,114,1) 0%, rgba(17,110,238,1) 100%) !important; 
   }
   .services .owl-nav .owl-next{
     right: -70px;
@@ -1897,7 +2067,7 @@ body {
     margin: 0px 5px;
   }
   section.our-team .naccs .menu div.active img {
-    border: 3px solid #dc8cdb;
+    border: 3px solid #116eee;
   }
   section.our-team .naccs .menu div h4,
   section.our-team .naccs .menu div span {

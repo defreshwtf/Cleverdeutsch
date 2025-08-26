@@ -28,9 +28,10 @@ TemplateMo 573 EduWell
 https://templatemo.com/tm-573-eduwell
 
 -->
+
   </head>
 <body>
-
+  
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
@@ -48,7 +49,7 @@ https://templatemo.com/tm-573-eduwell
                           <li class="scroll-to-section"><a data-translate="nav_home" href="#top" class="active">Startseite</a></li>
                           <li class="scroll-to-section"><a data-translate="nav_courses" href="#Deutschkurse">Deutschkurse</a></li>
                           <li class="scroll-to-section"><a data-translate="nav_how" href="#funktioniert">So funktioniert es</a></li>
-                          <li class="scroll-to-section"><a data-translate="nav_teachers" href="#testimonials">Dozenten</a></li> 
+                          <li class="scroll-to-section"><a data-translate="nav_teachers" id="btn-dozenten" href="#dozenten">Dozenten</a></li> 
                           <li class="scroll-to-section"><a data-translate="nav_contact" href="#Kontakt">Kontakt</a></li> 
                       </ul>      
 
@@ -75,7 +76,9 @@ https://templatemo.com/tm-573-eduwell
         <div class="col-lg-6 align-self-center">
           <div class="header-text">
             <h2 data-translate="banner_title">Deutschlernen mit  <em>Muttersprachlern</em></h2>
+            <br>
             <h6 data-translate="banner_sub">Lerne jederzeit von zu Hause aus mit live-online Unterricht Deutsch. Vom Beginner bis zum kompetenten Sprachgebrauch. </h6>
+            <br>
             <div class="main-button-gradient">
               <div class="scroll-to-section"><a data-translate="banner_btn" href="#Kontakt">Kurs wählen</a></div>
             </div>
@@ -155,11 +158,28 @@ https://templatemo.com/tm-573-eduwell
 
     <div class="row justify-content-center align-items-stretch">
       <!-- Einzelunterricht -->
-      <div class="col-lg-4 d-flex">
+      <div class="col-lg-4 d-flex " >
         <div class="left-info" style="background:#fff; border-top:20px solid #4aa3f3; border-radius:15px; text-align:center; padding:30px; box-shadow:0px 4px 15px rgba(0,0,0,0.1); display:flex; flex-direction:column; justify-content:space-between; width:100%;">
           <div>
-            <div class="section-heading">
-              <h3 data-translate="single_class">Einzelunterricht</h3>
+            <div class="center">
+              <h3 data-translate="single_class">Einzelunterricht</h3><br>
+            </div>
+            <p data-translate="single_text">Sei flexible mit deiner Zeit und deinem persönlichen Niveau</p>
+            <hr>
+            <h2>ab 40,00€</h2>
+            <p>pro 60 Min.</p>
+          </div>
+          <div class="main-button-gradient">
+            <a data-translate="book_btn" href="#Kontakt">Buchen</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 d-flex">
+        <div class="left-info" style="background:#fff; border-top:20px solid #ffd901; border-radius:15px; text-align:center; padding:30px; box-shadow:0px 4px 15px rgba(0,0,0,0.1); display:flex; flex-direction:column; justify-content:space-between; width:100%;">
+          <div>
+            <div class="center">
+              <h3 data-translate="single_class">Einzelunterricht</h3><br>
             </div>
             <p data-translate="single_text">Sei flexible mit deiner Zeit und deinem persönlichen Niveau</p>
             <hr>
@@ -176,8 +196,8 @@ https://templatemo.com/tm-573-eduwell
       <div class="col-lg-4 d-flex">
         <div class="left-info" style="background:#fff; border-top:20px solid #f94c6d; border-radius:15px; text-align:center; padding:30px; box-shadow:0px 4px 15px rgba(0,0,0,0.1); display:flex; flex-direction:column; justify-content:space-between; width:100%;">
           <div>
-            <div class="section-heading">
-              <h3 data-translate="group_class">Gruppenunterricht</h3>
+            <div class="center">
+              <h3 data-translate="group_class">Gruppenunterricht</h3><br>
             </div>
             <p data-translate="group_text">Erhalte Deutschunterricht in einer passenden Gruppe</p>
             <hr>
@@ -277,25 +297,63 @@ https://templatemo.com/tm-573-eduwell
     </div>
   </section>
 
-    <section class="get-info">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="left-image">
-            <img src="assets/images/GER.jpg" alt="">
-          </div>
+    <!-- Modal Dozenten -->
+<div id="dozenten-modal" class="modal">
+  <div class="modal-content">
+    <span id="close-dozenten" class="close">&times;</span>
+    
+    <div class="modal-header">
+      <h2>Sobre mí</h2>
+    </div>
+    
+    <div class="modal-body">
+      <div class="pm-container">
+        <!-- Foto -->
+        <div class="pm-photo">
+          <img src="assets/images/teacher1.png" alt="Lehrer">
         </div>
-        <div class="col-lg-6 align-self-center">
-          <div class="section-heading">
-            <h4 data-translate="GER_tittle">Wie gut ist dein <em>Deutsch?</em></h4>
-            <h6 data-translate="GER_subtittle">Finde dein Deutsch-Niveau heraus, indem du an einem kostenlosen Einstufungstest teilnimmst.</h6>
-            <p data-translate="GER_note">Was ist der GER?</p>
-            <p data-translate="GER_text">Der GER (Gemeinsame Europäische Referenzrahmen) ist ein System, das Lernen und Lehren von Sprachen und das Beurteilen von Sprachkompetenzen nach gemeinsamen Kriterien ermöglichen und vergleichbar machen soll. Dieser Referenzrahmen ist inzwischen in ganz Europa anerkannter Bezugsrahmen, der zur Beschreibung von Sprachkompetenzen (A1-C2) herangezogen wird.</p>
+
+        <!-- Información personal -->
+        <div class="pm-personal-info">
+          <h1> <p class="center"><strong>Patrick Koch</strong></p></h1>
+         
+
+        </div>
+
+        <!-- Secciones -->
+        <div class="pm-info-sections">
+          <div class="pm-section">
+            <h4>Formación</h4>
+            <p class="text-gray-700 leading-relaxed">
+              <strong>Erfolgreich Deutsch lernen und in Deutschland ankommen:</strong><br>
+              Durch meine strukturierte Vorgehensweise, mein fundiertes Wissen über die deutsche
+              Sprache und die frühzeitige Förderung der eigenständigen Sprachverwendung können
+              Lernende Deutsch effizient und mit Freude erlernen.
+            </p>
+            <p class="text-gray-700 leading-relaxed mt-3">
+              Seit 14 Jahren unterrichte ich Deutsch als Zweit- und Fremdsprache an verschiedenen
+              Sprachschulen sowie für private Lernende. Mein Hauptziel ist dabei die erfolgreiche
+              sprachliche Integration in Deutschland, sodass sich meine Studierenden sowohl schriftlich als
+              auch mündlich in ihrer neuen Heimat sicher bewegen können. Gleichzeitig bereite ich sie
+              gezielt auf offizielle, standardisierte Sprachprüfungen vor.
+            </p>
+          </div>
+          <div class="pm-section">
+            <h4>Experiencia</h4>
+            <p>Phasellus finibus ligula sit amet mauris gravida, vel pulvinar ligula euismod.</p>
+          </div>
+          <div class="pm-section">
+            <h4>Certificaciones</h4>
+            <p>Donec sollicitudin, leo in elementum efficitur, dui felis faucibus lectus.</p>
           </div>
         </div>
       </div>
     </div>
-    </section>
+    
+  </div>
+</div>
+
+
 
   <section class="our-courses">
     <div class="container">
@@ -479,7 +537,8 @@ https://templatemo.com/tm-573-eduwell
           </div>
         </div>
         <div class="col-lg-4">
-          <form id="contact" action="" method="post">
+          <form id="contact" action="https://formsubmit.co/sergio.martinezzc@gmail.com" method="POST">
+            <!--añadir direccion pagina web en value-->
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-heading">
@@ -488,14 +547,18 @@ https://templatemo.com/tm-573-eduwell
                   <p data-translate="contact_sub">wie können wir dir helfen?</p>
                 </div>
               </div>
+
+              <!-- Nombre -->
               <div class="col-lg-12">
                 <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Dein name*" data-translate="contact_name" autocomplete="on" required>
+                  <input type="text" name="name" id="name" placeholder="Dein name*" data-translate="contact_name" autocomplete="on" required>
                 </fieldset>
               </div>
+
+              <!-- Nivel -->
               <div class="col-lg-12">
                 <fieldset>
-                  <select name="level" class="form-control" required>
+                  <select name="Sprachniveau" id="nivel" class="form-control" required>
                     <option value="" disabled selected>Sprachniveau wählen</option>
                     <option value="A1">A1</option>
                     <option value="A2">A2</option>
@@ -508,44 +571,67 @@ https://templatemo.com/tm-573-eduwell
                 <div><br></div>
               </div>
 
+              <!-- Modalidad -->
               <div class="col-lg-12">
                 <fieldset>
-                  <select name="level" class="form-control" required>
+                  <select name="Unterrichtsform" id="modalidad" class="form-control" required>
                     <option value="" disabled selected>Unterrichtsform</option>
-                    <option value="A1">Einzelunterricht</option>
-                    <option value="A2">Gruppenunterricht</option>
+                    <option value="Einzelunterricht">Einzelunterricht</option>
+                    <option value="Gruppenunterricht">Gruppenunterricht</option>
                   </select>
                 </fieldset>
                 <div><br></div>
               </div>
 
+              <!-- Correo -->
               <div class="col-lg-12">
                 <fieldset>
-                  <input data-translate="contact_email" type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Adresse*"  required>
+                  <input data-translate="contact_email" type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Adresse*" required>
                 </fieldset>
               </div>
+
+              <!-- Mensaje -->
               <div class="col-lg-12">
                 <fieldset>
-                  <textarea data-translate="contact_msg" name="message" id="message" placeholder="Was können wir für dich tun?"  required></textarea>
+                  <textarea data-translate="contact_msg" name="message" id="message" placeholder="Was können wir für dich tun?" required></textarea>
                 </fieldset>
               </div>
+              <div class="col-lg-12 terms-box">
+                <div class="terms-row">
+                  <div class="terms-check">
+                    <input type="checkbox" id="terms" name="terms" required>
+                  </div>
+                  <div class="terms-label">
+                    <label for="terms">I agree to the terms and conditions</label>
+                  </div>
+                </div>
+              </div>
+              <!-- Campo honeypot (antispam) -->
               <div style="display:none;">
                 <label for="address">Address (leave blank):</label>
                 <input type="text" id="address" name="address">
               </div>
+
+              <!-- Botón -->
               <div class="col-lg-12">
                 <fieldset>
-                  <button data-translate="contact_btn" type="submit" id="form-submit"  class="main-gradient-button">ABSCHICKEN</button>
+                  <button data-translate="contact_btn" type="submit" id="form-submit" class="main-gradient-button">ABSCHICKEN</button>
                 </fieldset>
               </div>
             </div>
+
+            <!-- Opciones adicionales de FormSubmit -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500">
           </form>
+
         </div>
         <div class="col-lg-12">
           <ul class="social-icons">
-            <li><a href="https://www.facebook.com/dafzonline"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/cleverdeutsch"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCqIm-7HoHyj_C4DXg1VRsAQ"><i class="fa fa-youtube"></i></a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/dafzonline"><i class="fa fa-facebook"></i></a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cleverdeutsch"><i class="fa fa-instagram"></i></a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCqIm-7HoHyj_C4DXg1VRsAQ"><i class="fa fa-youtube"></i></a></li>
           </ul>
         </div>
         <div class="col-lg-12">
@@ -560,16 +646,15 @@ https://templatemo.com/tm-573-eduwell
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <script src="assets/js/isotope.min.js"></script>
     <script src="assets/js/owl-carousel.js"></script>
     <script src="assets/js/lightbox.js"></script>
     <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/translation.js"></script>
+    <script src="assets/js/dozenten.js"></script>
 
     <style>
     /* Estilo FAQ */
@@ -669,5 +754,6 @@ https://templatemo.com/tm-573-eduwell
           checkSection();
         });
     </script>
+    
 </body>
 </html>
