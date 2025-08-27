@@ -79,9 +79,23 @@ const translations = {
     "contact_hello": "<em>Hallo</em>",
     "contact_sub": "wie können wir dir helfen?",
     "contact_name": "Dein Name*",
+    "contact_level": "Sprachniveau wählen",
+    "contact_class": "Unterrichtsform",
+    "contact_class_1": "Einzelunterricht",
+    "contact_class_2": "Gruppenunterricht",
+    "contact_class_3": "Unterricht für Unternehmen",
     "contact_email": "E-Mail Adresse*",
     "contact_msg": "Was können wir für dich tun?",
-    "contact_btn": "ABSCHICKEN"
+    "contact_btn": "ABSCHICKEN",
+
+    //lehrer info
+    "lehrer_AM_T":"Erfolgreich Deutsch lernen und in Deutschland ankommen:",
+    "lehrer_AM":"Durch meine strukturierte Vorgehensweise, mein fundiertes Wissen über die deutsche Sprache und die frühzeitige Förderung der eigenständigen Sprachverwendung können Lernende Deutsch effizient und mit Freude erlernen.",
+    "lehrer_AM2":"Seit 14 Jahren unterrichte ich Deutsch als Zweit- und Fremdsprache an verschiedenen Sprachschulen sowie für private Lernende. Mein Hauptziel ist dabei die erfolgreiche sprachliche Integration in Deutschland, sodass sich meine Studierenden sowohl schriftlich als auch mündlich in ihrer neuen Heimat sicher bewegen können. Gleichzeitig bereite ich sie gezielt auf offizielle, standardisierte Sprachprüfungen vor.",
+    "lehrer_Beruf_T": "Berufserfahrungen als Deutschlehrer",
+    "lehrer_Beruf": "<li>Mai 2013 – Juli 2018 — Deutschlehrer an der Sprachwerkstatt Bayreuth</li><li>Januar 2016 – März 2016 — Deutschlehrer am BSZ Anne Frank Plauen</li><li>Mai 2016 – Juli 2018 — Deutschlehrer an der Berufsschule I in Bayreuth</li><li>November 2016 – September 2017 — Deutschlehrer am IIK Bayreuth und an der Universität Bayreuth</li><li>September 2018 – Februar 2019 — Lehrer für Deutsch und Geschichte an der Realschule 3 Nürnberg</li><li>Dezember 2018 – heute — Selbstständige Tätigkeit einer Sprachschule 'CleverDeutsch'</li><li>Februar 2019 – Mai 2024 — Berater für Schulen und Hochschulen bei der telc gGmbH</li>",
+    "lehrer_zert_T": "Zertifikate der Deutschdidaktik",
+    "lehrer_zert": "<li>Dezember 2015 – Zertifikat: 'Grundlagen für die Didaktik Deutsch als Zweitsprache'</li><li>August 2017 – Zertifikat: 'Interkulturelle Didaktik des Fremdsprachunterrichts'</li><li>Oktober 2017 – Prüferlizenz für telc A1–B2</li><li>Oktober 2019 – Zulassung zur 'Lehrtätigkeit in Integrationskursen'</li><li>Mai 2024 – Prüferlizenz für telc B1–C2</li><li>September 2025 – Zulassung zur 'Lehrtätigkeit in Berufssprachkursen'</li>"
   },
 
   "en": {
@@ -161,12 +175,26 @@ const translations = {
     "contact_hello": "<em>Hello</em>",
     "contact_sub": "How can we help you?",
     "contact_name": "Your name*",
+    "contact_level": "Select language level",
+    "contact_class": "Type of lessons",
+    "contact_class_1": "Private lessons",
+    "contact_class_2": "Group lessons",
+    "contact_class_3": "Lessons for companies",
     "contact_email": "Your email*",
     "contact_msg": "What can we do for you?",
-    "contact_btn": "SEND"
+    "contact_btn": "SEND",
+
+    // teacher info
+    "lehrer_AM_T":"Successfully learn German and settle in Germany:",
+    "lehrer_AM":"Through my structured approach, my solid knowledge of the German language, and the early encouragement of independent language use, learners can acquire German efficiently and with joy.",
+    "lehrer_AM2":"For 14 years, I have been teaching German as a second and foreign language at various language schools as well as for private learners. My main goal is the successful linguistic integration in Germany, so that my students can confidently express themselves both in writing and orally in their new home. At the same time, I specifically prepare them for official, standardized language exams.",
+    "lehrer_Beruf_T": "Professional experience as a German teacher",
+    "lehrer_Beruf": "<li>May 2013 – July 2018 — German teacher at Sprachwerkstatt Bayreuth</li><li>January 2016 – March 2016 — German teacher at BSZ Anne Frank Plauen</li><li>May 2016 – July 2018 — German teacher at Vocational School I in Bayreuth</li><li>November 2016 – September 2017 — German teacher at IIK Bayreuth and the University of Bayreuth</li><li>September 2018 – February 2019 — Teacher of German and History at Realschule 3 Nuremberg</li><li>December 2018 – present — Independent work at the language school 'CleverDeutsch'</li><li>February 2019 – May 2024 — Consultant for schools and universities at telc gGmbH</li>",
+    "lehrer_zert_T": "Certificates in German Didactics",
+    "lehrer_zert": "<li>December 2015 – Certificate: 'Basics of German as a Second Language Didactics'</li><li>August 2017 – Certificate: 'Intercultural Didactics of Foreign Language Teaching'</li><li>October 2017 – Examiner license for telc A1–B2</li><li>October 2019 – Authorization for 'Teaching in Integration Courses'</li><li>May 2024 – Examiner license for telc B1–C2</li><li>September 2025 – Authorization for 'Teaching in Job-related Language Courses'</li>"
   },
   "es": {
-        "nav_home": "Inicio",
+    "nav_home": "Inicio",
     "nav_courses": "Cursos de Alemán",
     "nav_how": "Cómo funciona",
     "nav_teachers": "Profesores",
@@ -242,9 +270,23 @@ const translations = {
     "contact_hello": "<em>Hola</em>",
     "contact_sub": "¿Cómo podemos ayudarte?",
     "contact_name": "Tu nombre*",
+    "contact_level": "Seleccionar nivel de idioma",
+    "contact_class": "Tipo de clase",
+    "contact_class_1": "Clases particulares",
+    "contact_class_2": "Clases en grupo",
+    "contact_class_3": "Clases para empresas",
     "contact_email": "Tu correo electrónico*",
     "contact_msg": "¿Qué podemos hacer por ti?",
-    "contact_btn": "ENVIAR"
+    "contact_btn": "ENVIAR",
+
+    // información del profesor
+    "lehrer_AM_T":"Aprender alemán con éxito y establecerse en Alemania:",
+    "lehrer_AM":"A través de mi enfoque estructurado, mi sólido conocimiento del idioma alemán y el fomento temprano del uso independiente de la lengua, los estudiantes pueden aprender alemán de manera eficiente y con alegría.",
+    "lehrer_AM2":"Desde hace 14 años enseño alemán como segunda y lengua extranjera en diversas escuelas de idiomas, así como a estudiantes particulares. Mi principal objetivo es la integración lingüística exitosa en Alemania, de modo que mis alumnos puedan desenvolverse con seguridad tanto de forma escrita como oral en su nuevo hogar. Al mismo tiempo, los preparo específicamente para exámenes oficiales y estandarizados de idioma.",
+    "lehrer_Beruf_T": "Experiencia profesional como profesor de alemán",
+    "lehrer_Beruf": "<li>Mayo 2013 – Julio 2018 — Profesor de alemán en Sprachwerkstatt Bayreuth</li><li>Enero 2016 – Marzo 2016 — Profesor de alemán en BSZ Anne Frank Plauen</li><li>Mayo 2016 – Julio 2018 — Profesor de alemán en la Escuela Vocacional I en Bayreuth</li><li>Noviembre 2016 – Septiembre 2017 — Profesor de alemán en el IIK Bayreuth y en la Universidad de Bayreuth</li><li>Septiembre 2018 – Febrero 2019 — Profesor de alemán e historia en la Realschule 3 Núremberg</li><li>Diciembre 2018 – actualidad — Trabajo independiente en la escuela de idiomas 'CleverDeutsch'</li><li>Febrero 2019 – Mayo 2024 — Asesor para escuelas y universidades en telc gGmbH</li>",
+    "lehrer_zert_T": "Certificados en didáctica del alemán",
+    "lehrer_zert": "<li>Diciembre 2015 – Certificado: 'Fundamentos de la Didáctica del Alemán como Segunda Lengua'</li><li>Agosto 2017 – Certificado: 'Didáctica intercultural de la enseñanza de lenguas extranjeras'</li><li>Octubre 2017 – Licencia de examinador para telc A1–B2</li><li>Octubre 2019 – Autorización para 'Enseñanza en cursos de integración'</li><li>Mayo 2024 – Licencia de examinador para telc B1–C2</li><li>Septiembre 2025 – Autorización para 'Enseñanza en cursos de idioma orientados al ámbito laboral'</li>"
   }
 };
 

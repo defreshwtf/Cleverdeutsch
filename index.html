@@ -51,6 +51,13 @@ https://templatemo.com/tm-573-eduwell
                           <li class="scroll-to-section"><a data-translate="nav_how" href="#funktioniert">So funktioniert es</a></li>
                           <li class="scroll-to-section"><a data-translate="nav_teachers" id="btn-dozenten" href="#dozenten">Dozenten</a></li> 
                           <li class="scroll-to-section"><a data-translate="nav_contact" href="#Kontakt">Kontakt</a></li> 
+                          <div class="language-selector">
+                            <select id="language" onchange="changeLanguage(this.value)">
+                              <option value="de"> Deutsch</option>
+                              <option value="en"> English</option>
+                              <option value="es"> Español</option>
+                            </select>
+                          </div>
                       </ul>      
 
                       <a class='menu-trigger'>
@@ -67,11 +74,6 @@ https://templatemo.com/tm-573-eduwell
   <!-- ***** Main Banner Area Start ***** -->
   <section class="main-banner" id="top">
     <div class="container">
-      <ul class="nav">
-        <li><a href="#" onclick="changeLanguage('de')">DE|</a></li>
-        <li><a href="#" onclick="changeLanguage('en')">EN|</a></li>
-        <li><a href="#" onclick="changeLanguage('es')">ES|</a></li>
-      </ul>
       <div class="row">
         <div class="col-lg-6 align-self-center">
           <div class="header-text">
@@ -221,7 +223,8 @@ https://templatemo.com/tm-573-eduwell
     </div>
   </div>
   </section>
-
+  <br>
+  <br>
   <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
   <div class="commonninja_component pid-bf532d5e-d272-4cc3-b084-630c57711471"></div>
 
@@ -240,7 +243,7 @@ https://templatemo.com/tm-573-eduwell
           </a>
           <br>
           <h4 data-translate="cta_text" >Einfach</br>Erfolgreich </br> Online</br> </h4>
-          
+          <br>
           <div class="white-button">
             <a data-translate="cta_btn" href="#Kontakt">Kurs wählen</a>
           </div>
@@ -303,7 +306,7 @@ https://templatemo.com/tm-573-eduwell
     <span id="close-dozenten" class="close">&times;</span>
     
     <div class="modal-header">
-      <h2>Sobre mí</h2>
+      <h2>Patrick Koch</h2>
     </div>
     
     <div class="modal-body">
@@ -315,7 +318,7 @@ https://templatemo.com/tm-573-eduwell
 
         <!-- Información personal -->
         <div class="pm-personal-info">
-          <h1> <p class="center"><strong>Patrick Koch</strong></p></h1>
+          <h1> <p class="center"><strong></strong></p></h1>
          
 
         </div>
@@ -323,28 +326,47 @@ https://templatemo.com/tm-573-eduwell
         <!-- Secciones -->
         <div class="pm-info-sections">
           <div class="pm-section">
-            <h4>Formación</h4>
-            <p class="text-gray-700 leading-relaxed">
-              <strong>Erfolgreich Deutsch lernen und in Deutschland ankommen:</strong><br>
+            <h2 data-translate="lehrer_AM_T">Erfolgreich Deutsch lernen und in Deutschland ankommen:</h2>
+            <br>
+            <p data-translate="lehrer_AM" class="text-gray-700 leading-relaxed">
               Durch meine strukturierte Vorgehensweise, mein fundiertes Wissen über die deutsche
               Sprache und die frühzeitige Förderung der eigenständigen Sprachverwendung können
               Lernende Deutsch effizient und mit Freude erlernen.
             </p>
-            <p class="text-gray-700 leading-relaxed mt-3">
+            <br>
+            <p data-translate="lehrer_AM2" class="text-gray-700 leading-relaxed mt-3">
               Seit 14 Jahren unterrichte ich Deutsch als Zweit- und Fremdsprache an verschiedenen
               Sprachschulen sowie für private Lernende. Mein Hauptziel ist dabei die erfolgreiche
               sprachliche Integration in Deutschland, sodass sich meine Studierenden sowohl schriftlich als
               auch mündlich in ihrer neuen Heimat sicher bewegen können. Gleichzeitig bereite ich sie
               gezielt auf offizielle, standardisierte Sprachprüfungen vor.
             </p>
+
+
           </div>
           <div class="pm-section">
-            <h4>Experiencia</h4>
-            <p>Phasellus finibus ligula sit amet mauris gravida, vel pulvinar ligula euismod.</p>
+            <h4 data-translate="lehrer_Beruf_T">Berufserfahrungen als Deutschlehrer</h4>
+            <ul data-translate="lehrer_Beruf"class="text-gray-700 leading-relaxed mt-3">
+              <li>Mai 2013 – Juli 2018 — Deutschlehrer an der Sprachwerkstatt Bayreuth</li>
+              <li>Januar 2016 – März 2016 — Deutschlehrer am BSZ Anne Frank Plauen</li>
+              <li>Mai 2016 – Juli 2018 — Deutschlehrer an der Berufsschule I in Bayreuth</li>
+              <li>November 2016 – September 2017 — Deutschlehrer am IIK Bayreuth und an der Universität Bayreuth</li>
+              <li>September 2018 – Februar 2019 — Lehrer für Deutsch und Geschichte an der Realschule 3 Nürnberg</li>
+              <li>Dezember 2018 – heute — Selbstständige Tätigkeit einer Sprachschule "CleverDeutsch“</li>
+              <li>Februar 2019 – Mai 2024 — Berater für Schulen und Hochschulen bei der telc gGmbH</li>
+            </ul>
+           
           </div>
-          <div class="pm-section">
-            <h4>Certificaciones</h4>
-            <p>Donec sollicitudin, leo in elementum efficitur, dui felis faucibus lectus.</p>
+          <div class="pm-section" >
+             <h4 data-translate="lehrer_zert_T">Zertifikate der Deutschdidaktik</h4>
+            <ul data-translate="lehrer_zert" class="text-gray-700 leading-relaxed mt-3" data-translate="lehrer_zert">
+              <li>Dezember 2015 – Zertifikat: 'Grundlagen für die Didaktik Deutsch als Zweitsprache'</li>
+              <li>August 2017 – Zertifikat: 'Interkulturelle Didaktik des Fremdsprachunterrichts'</li>
+              <li>Oktober 2017 – Prüferlizenz für telc A1–B2</li>
+              <li>Oktober 2019 – Zulassung zur 'Lehrtätigkeit in Integrationskursen'</li>
+              <li>Mai 2024 – Prüferlizenz für telc B1–C2</li>
+              <li>September 2025 – Zulassung zur 'Lehrtätigkeit in Berufssprachkursen'</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -495,7 +517,7 @@ https://templatemo.com/tm-573-eduwell
           <div class="faq-item">
             <button  data-translate="faq_q1" class="faq-question">Wie kann ich den Deutschunterricht starten?</button>
             <div class="faq-answer">
-              <p data-translate="faq_a1">Wenn du auf der Suche nach einem Deutschkurs bist, dann klicke auf „Buchen“ und schreibe mir eine Nachricht. Zusammen finden wir die passende Gruppe für dich.</p>
+              <p data-translate="faq_a1">Wenn du auf der Suche nach einem Deutschkurs bist, dann klicke auf "Buchen“ und schreibe mir eine Nachricht. Zusammen finden wir die passende Gruppe für dich.</p>
             </div>
           </div>
 
@@ -550,16 +572,18 @@ https://templatemo.com/tm-573-eduwell
 
               <!-- Nombre -->
               <div class="col-lg-12">
+                <label for="name" data-translate="contact_name">Dein name*</label>
                 <fieldset>
-                  <input type="text" name="name" id="name" placeholder="Dein name*" data-translate="contact_name" autocomplete="on" required>
+                  <input type="text" name="name" id="name" data-translate="contact_name" autocomplete="on" required>
                 </fieldset>
               </div>
 
               <!-- Nivel -->
               <div class="col-lg-12">
+                <label for="name" data-translate="contact_level">Sprachniveau wählen</label>                
                 <fieldset>
                   <select name="Sprachniveau" id="nivel" class="form-control" required>
-                    <option value="" disabled selected>Sprachniveau wählen</option>
+                    <option value="" disabled selected></option>
                     <option value="A1">A1</option>
                     <option value="A2">A2</option>
                     <option value="B1">B1</option>
@@ -573,11 +597,13 @@ https://templatemo.com/tm-573-eduwell
 
               <!-- Modalidad -->
               <div class="col-lg-12">
+                <label for="name" data-translate="contact_class">Unterrichtsform</label>
                 <fieldset>
                   <select name="Unterrichtsform" id="modalidad" class="form-control" required>
-                    <option value="" disabled selected>Unterrichtsform</option>
-                    <option value="Einzelunterricht">Einzelunterricht</option>
-                    <option value="Gruppenunterricht">Gruppenunterricht</option>
+                    <option value="" disabled selected></option>
+                    <option value="Einzelunterricht" data-translate="contact_class_1">Einzelunterricht</option>
+                    <option value="Gruppenunterricht" data-translate="contact_class_2">Gruppenunterricht</option>
+                    <option value="Unternehmen" data-translate="contact_class_3">Unterricht für Unternehmen</option>
                   </select>
                 </fieldset>
                 <div><br></div>
@@ -585,15 +611,17 @@ https://templatemo.com/tm-573-eduwell
 
               <!-- Correo -->
               <div class="col-lg-12">
+                <label for="email" data-translate="contact_email">E-Mail Adresse*</label>
                 <fieldset>
-                  <input data-translate="contact_email" type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Adresse*" required>
+                  <input  type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"  required>
                 </fieldset>
               </div>
 
               <!-- Mensaje -->
               <div class="col-lg-12">
+                <label for="message" data-translate="contact_msg">Was können wir für dich tun?</label>
                 <fieldset>
-                  <textarea data-translate="contact_msg" name="message" id="message" placeholder="Was können wir für dich tun?" required></textarea>
+                  <textarea name="message" id="message" required></textarea>
                 </fieldset>
               </div>
               <div class="col-lg-12 terms-box">
