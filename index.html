@@ -49,15 +49,17 @@ https://templatemo.com/tm-573-eduwell
                           <li class="scroll-to-section"><a data-translate="nav_home" href="#top" class="active">Startseite</a></li>
                           <li class="scroll-to-section"><a data-translate="nav_courses" href="#Deutschkurse">Deutschkurse</a></li>
                           <li class="scroll-to-section"><a data-translate="nav_how" href="#funktioniert">So funktioniert es</a></li>
-                          <li class="scroll-to-section"><a data-translate="nav_teachers" id="btn-dozenten" href="#dozenten">Dozenten</a></li> 
+                          <li><a data-translate="nav_teachers" id="btn-dozenten">Dozenten</a></li> 
                           <li class="scroll-to-section"><a data-translate="nav_contact" href="#Kontakt">Kontakt</a></li> 
-                          <div class="language-selector">
-                            <select id="language" onchange="changeLanguage(this.value)">
-                              <option value="de"> Deutsch</option>
-                              <option value="en"> English</option>
-                              <option value="es"> Español</option>
-                            </select>
+                          <li>                          
+                            <div class="language-selector">
+                              <select id="language" onchange="changeLanguage(this.value)">
+                                <option value="de"> Deutsch</option>
+                                <option value="en"> English</option>
+                                <option value="es"> Español</option>
+                              </select>
                           </div>
+                        </li>
                       </ul>      
 
                       <a class='menu-trigger'>
@@ -375,6 +377,52 @@ https://templatemo.com/tm-573-eduwell
   </div>
 </div>
 
+<div id="impressum-modal" class="modal">
+  <div class="modal-content">
+    <span id="close-impressum" class="close">&times;</span>
+    
+    <h1>Impressum</h1>
+
+    <p>Patrick Koch<br />
+    Nonnengasse 12<br />
+    90402 N&uuml;rnberg</p>
+
+    <h2>Kontakt</h2>
+    <p>Telefon: +4915737945450<br />
+    E-Mail: patrick@cleverdeutsch.de</p>
+
+    <h2>Redaktionell verantwortlich</h2>
+    <p>Patrick Koch<br />
+    Nonnengasse 12<br />
+    90402 N&uuml;rnberg</p>
+
+    <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
+    <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+    <p>Quelle: <a href="https://www.e-recht24.de">e-recht24.de</a></p>
+    
+  </div>
+</div>
+
+    <section class="get-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="left-image">
+            <img src="assets/images/GER.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 align-self-center">
+          <div class="section-heading">
+            <h4 data-translate="GER_tittle">Wie gut ist dein <em>Deutsch?</em></h4>
+            <h6 data-translate="GER_subtittle">Finde dein Deutsch-Niveau heraus, indem du an einem kostenlosen Einstufungstest teilnimmst.</h6>
+            <p data-translate="GER_note">Was ist der GER?</p>
+            <p data-translate="GER_text">Der GER (Gemeinsame Europäische Referenzrahmen) ist ein System, das Lernen und Lehren von Sprachen und das Beurteilen von Sprachkompetenzen nach gemeinsamen Kriterien ermöglichen und vergleichbar machen soll. Dieser Referenzrahmen ist inzwischen in ganz Europa anerkannter Bezugsrahmen, der zur Beschreibung von Sprachkompetenzen (A1-C2) herangezogen wird.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
 
 
   <section class="our-courses">
@@ -551,12 +599,9 @@ https://templatemo.com/tm-573-eduwell
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
-          <div id="map">
-          	<!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
             <div class="left-image">
               <img src="assets/images/alemania.png" alt="">
             </div>
-          </div>
         </div>
         <div class="col-lg-4">
           <form id="contact" action="https://formsubmit.co/sergio.martinezzc@gmail.com" method="POST">
@@ -624,15 +669,11 @@ https://templatemo.com/tm-573-eduwell
                   <textarea name="message" id="message" required></textarea>
                 </fieldset>
               </div>
-              <div class="col-lg-12 terms-box">
-                <div class="terms-row">
-                  <div class="terms-check">
-                    <input type="checkbox" id="terms" name="terms" required>
-                  </div>
-                  <div class="terms-label">
-                    <label for="terms">I agree to the terms and conditions</label>
-                  </div>
-                </div>
+              <div class="col-lg-8">
+                <label for="terms" class="container_label" ><h6>I agree to the <a href="Datenschutzerklärung.html" target="_blank" rel="noopener noreferrer" class="enlace_terminos">Privacy Policy</a></h6><br>
+                  <input type="checkbox" name="terms" id="terms" required>
+                  <span class="checkmark"></span>
+                </label>
               </div>
               <!-- Campo honeypot (antispam) -->
               <div style="display:none;">
@@ -664,12 +705,14 @@ https://templatemo.com/tm-573-eduwell
         </div>
         <div class="col-lg-12">
           <p class="copyright">Copyright 2021 © CleverDeutsch -  All Rights Reserved. |  
-            <span><a href="#"> Impressum |</a></span>
-            <span><a href="#">Datenschutzerklärung</a></span>
+            <span><a id="btn-impressum" href="#"> Impressum |</a></span>
+            <span><a href="Datenschutzerklärung.html" >Datenschutzerklärung</a></span>
         </div>
+        <div><br></div>
       </div>
     </div>
   </section>
+  
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
@@ -683,6 +726,7 @@ https://templatemo.com/tm-573-eduwell
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/translation.js"></script>
     <script src="assets/js/dozenten.js"></script>
+    <script src="assets/js/impressum.js"></script>
 
     <style>
     /* Estilo FAQ */
