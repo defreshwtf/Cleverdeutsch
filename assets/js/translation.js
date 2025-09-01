@@ -1,5 +1,6 @@
 const translations = {
   "de": {
+    "lang": "Sprache",
     "nav_home": "Startseite",
     "nav_courses": "Deutschkurse",
     "nav_how": "So funktioniert es",
@@ -99,6 +100,7 @@ const translations = {
   },
 
   "en": {
+    "lang": "Language",
     "nav_home": "Home",
     "nav_courses": "German Courses",
     "nav_how": "How it works",
@@ -194,6 +196,7 @@ const translations = {
     "lehrer_zert": "<li>December 2015 – Certificate: 'Basics of German as a Second Language Didactics'</li><li>August 2017 – Certificate: 'Intercultural Didactics of Foreign Language Teaching'</li><li>October 2017 – Examiner license for telc A1–B2</li><li>October 2019 – Authorization for 'Teaching in Integration Courses'</li><li>May 2024 – Examiner license for telc B1–C2</li><li>September 2025 – Authorization for 'Teaching in Job-related Language Courses'</li>"
   },
   "es": {
+    "lang": "Idioma",
     "nav_home": "Inicio",
     "nav_courses": "Cursos de Alemán",
     "nav_how": "Cómo funciona",
