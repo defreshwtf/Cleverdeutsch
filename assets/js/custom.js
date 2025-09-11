@@ -129,10 +129,10 @@
 
 	$('.owl-service-item').owlCarousel({
 		items:4,
-		loop:true,
-		dots: true,
+		loop:false,
+		dots: false,
 		nav: false,
-		autoplay: true,
+		autoplay: false,
 		margin:15,
 		  responsive:{
 			  0:{
