@@ -1,6 +1,6 @@
 const translations = {
   "de": {
-    "lang": "Sprache",
+    "lang": "Sprache:",
     "nav_home": "Startseite",
     "nav_courses": "Deutschkurse",
     "nav_how": "So funktioniert es",
@@ -8,14 +8,14 @@ const translations = {
     "nav_contact": "Kontakt",
 
     "banner_title": "Deutschlernen mit <em>Muttersprachlern</em>",
-    "banner_sub": "Lerne jederzeit von zu Hause aus mit live-online Unterricht Deutsch. Vom Beginner bis zum kompetenten Sprachgebrauch.",
+    "banner_sub": "Lerne jederzeit von zu Hause aus mit Live-Online-Unterricht Deutsch – vom Anfänger bis zum kompetenten Sprachgebrauch.",
     "banner_btn": "Kurs wählen",
 
     "services_title": "Was ist <em>CleverDeutsch?</em>",
-    "services_sub": "Mehr als ein Grund, mit uns Deutsch zu lernen. Wir werden dich beim Lernen der Sprache intensiv unterstützen und die Sprache mit dir leben.",
+    "services_sub": "Es gibt mehr als einen Grund, mit uns Deutsch zu lernen. Wir unterstützen dich intensiv beim Spracherwerb und leben die Sprache gemeinsam mit dir.",
     "service1": "100% online und zeitflexibel",
-    "service2": "Erste Stunde (60 Min.) gratis",
-    "service3": "Lerne erst und zahle später die Rechnung",
+    "service2": "Erste Stunde (45 Min.) gratis",
+    "service3": "Lerne erst und zahle monatlich die Rechnungen",
     "service4": "Live Muttersprachler als Lehrer(in)",
 
     "courses_title": "Wähle deine <em>Kursart</em>",
@@ -23,11 +23,15 @@ const translations = {
     "single_class": "Einzelunterricht",
     "single_text": "Sei flexible mit deiner Zeit und deinem persönlichen Niveau",
     "group_class": "Gruppenunterricht",
-    "group_text": "Erhalte Deutschunterricht in einer passenden Gruppe",
+    "group_text": "für dich und deine Freunde auf dem gleichen Sprachniveau <br>-	flexibel nach eurer Verfügbarkeit <br>-	angepasst an eure Wünsche und Ziele",
     "group_extra": "4–6 Personen in einer Gruppe",
+    "group_class2": "Gruppenunterricht",
+    "group_text2": "für Firmen und Organisationen <br>-	flexibel nach Verfügbarkeit der Teilnehmerinnen und Teilnehmer <br>-	angepasst an die Ziele des Sprachniveaus und des Berufsalltags",
+    "group_extra2": "4–6 Personen in einer Gruppe",
+
     "book_btn": "Buchen",
-    "note_course": "** Das Buch ist im Kurspreis nicht inklusive. Wir helfen dir bei der Bestellung. **",
-    "note_course2": "** 1 Unterrichtsstunde umfasst immer 60 Min. **",
+    "note_course": "** Das Buch ist im Kurspreis nicht inbegriffen. Wir helfen dir gerne bei der Bestellung. **",
+    "note_course2": "** Eine Unterrichtsstunde umfasst immer 45 Minuten. **",
 
     "cta_text": "Einfach </br> Erfolgreich </br> Online",
     "cta_btn": "Kurs wählen",
@@ -41,12 +45,6 @@ const translations = {
     "Unterricht_4": "Wir bieten auch einen kostenlosen Einstufungstest an",
     "Unterricht_5": "Sprich mit uns",
     "Unterricht_6": "Du kannst direkt mit einer Lehrerin oder einem Lehrer über deine Wünsche sprechen",
-
-    //GER
-    "GER_tittle": "Wie gut ist dein <em>Deutsch?</em>",
-    "GER_subtittle": "Finde dein Deutsch-Niveau heraus, indem du an einem kostenlosen Einstufungstest teilnimmst.",
-    "GER_note": "Was ist der GER?",
-    "GER_text": "Der GER (Gemeinsame Europäische Referenzrahmen) ist ein System, das Lernen und Lehren von Sprachen und das Beurteilen von Sprachkompetenzen nach gemeinsamen Kriterien ermöglichen und vergleichbar machen soll. Dieser Referenzrahmen ist inzwischen in ganz Europa anerkannter Bezugsrahmen, der zur Beschreibung von Sprachkompetenzen (A1-C2) herangezogen wird.",
 
     //niveles
     "level_tittle": "GER-<em>Sprachniveaus</em>",
@@ -68,13 +66,13 @@ const translations = {
     "faq_title": "Häufige <em>Fragen</em>",
     "faq_sub": "Alles, was du über unseren Deutschunterricht wissen musst",
     "faq_q1": "Wie kann ich den Deutschunterricht starten?",
-    "faq_a1": "Wenn du auf der Suche nach einem Deutschkurs bist, dann klicke auf „Buchen“ und schreibe mir eine Nachricht. Zusammen finden wir die passende Gruppe für dich.",
+    "faq_a1": "Wenn du auf der Suche nach einem Deutschkurs bist, dann klicke auf „Kurs wählen“ und schreibe uns eine Nachricht. Zusammen finden wir die passende Lösung für dich oder Ihre Firma.",
     "faq_q2": "Wie viele Personen sind in einer Gruppe?",
-    "faq_a2": "Um den Unterricht effizient gestalten zu können, sind in einer Gruppe 4-6 Schülerinnen und Schüler.",
+    "faq_a2": "Um den Unterricht effizient gestalten zu können, sind in einer Gruppe maximal 6 Teilnehmerinnen und Teilnehmer.",
     "faq_q3": "Welche Software benötigt?",
     "faq_a3": "Für den Deutschunterricht benötigst du nur einen PC, Laptop oder Tablet und eine stabile Internetverbindung. Empfehlenswert sind ein kostenloser Dropbox-Zugang und die Zoom-App.",
     "faq_q4": "Wie weiß ich, welcher Kurs der richtige für mich ist?",
-    "faq_a4": "Kontaktiere uns einfach für die richtige Niveau-Auswahl, solltest du nicht sicher sein. Wir können auch einen Einstufungstest mit dir durchführen.",
+    "faq_a4": "Kontaktiere uns einfach für die richtige Niveau-Auswahl. ",
 
     "contact_title": "Kontakt",
     "contact_hello": "<em>Hallo</em>",
@@ -144,7 +142,7 @@ const translations = {
   },
 
   "en": {
-    "lang": "Language",
+    "lang": "Language:",
     "nav_home": "Home",
     "nav_courses": "German Courses",
     "nav_how": "How it works",
@@ -152,14 +150,14 @@ const translations = {
     "nav_contact": "Contact",
 
     "banner_title": "Learn German with <em>native speakers</em>",
-    "banner_sub": "Learn anytime from home with live online German lessons. From beginner to advanced language proficiency.",
+    "banner_sub": "Learn German anytime from home with live online lessons. From beginner to competent language use.",
     "banner_btn": "Choose course",
 
     "services_title": "What is <em>CleverDeutsch?</em>",
-    "services_sub": "More than one reason to learn German with us. We will support you intensively and live the language with you.",
+    "services_sub": "There is more than one reason to learn German with us. We provide you with intensive support in language acquisition and live the language together with you.",
     "service1": "100% online and flexible",
-    "service2": "First lesson (60 min) free",
-    "service3": "Learn first, pay later",
+    "service2": "First lesson (45 Min) free",
+    "service3": "Study first and pay the bills monthly",
     "service4": "Native speakers as teachers",
 
     "courses_title": "Choose your <em>course type</em>",
@@ -167,11 +165,15 @@ const translations = {
     "single_class": "Individual lessons",
     "single_text": "Be flexible with your time and your personal level",
     "group_class": "Group lessons",
-    "group_text": "Get German lessons in a suitable group",
+    "group_text": "For you and your friends at the same language level <br>- Flexible according to your availability <br>- Tailored to your wishes and goals",
     "group_extra": "4–6 people per group",
+    "group_class2": "Group lessons",
+    "group_text2": "For companies and organizations <br>- Flexible according to participant availability <br>- Tailored to language level goals and everyday professional life",
+    "group_extra2": "4-6 people per group",
+
     "book_btn": "Book now",
-    "note_course": "** The book is not included in the course price. We will help you order it. **",
-    "note_course2":"** Each lesson lasts 60 minutes. **",
+    "note_course": "** The book is not included in the course price. We are happy to help you order it. **",
+    "note_course2":"** Each lesson lasts 45 minutes. **",
 
     "cta_text": "Simple </br> Successful </br> Online",
     "cta_btn": "Choose course",
@@ -184,12 +186,6 @@ const translations = {
     "Unterricht_4": "We also offer a free placement test",
     "Unterricht_5": "Talk to us",
     "Unterricht_6": "You can talk directly with a teacher about your goals",
-
-    //GER
-    "GER_tittle": "How good is your <em>German?</em>",
-    "GER_subtittle": "Find out your German level by taking a free placement test.",
-    "GER_note": "What is the CEFR?",
-    "GER_text": "The CEFR (Common European Framework of Reference for Languages) is a system that enables learning and teaching languages, as well as assessing language skills, according to common and comparable criteria. This framework is now recognized throughout Europe as a standard reference for describing language proficiency (A1–C2).",
 
     //levels
     "level_tittle": "CEFR <em>Language Levels</em>",
@@ -209,13 +205,13 @@ const translations = {
     "faq_title": "Frequently Asked <em>Questions</em>",
     "faq_sub": "Everything you need to know about our German lessons",
     "faq_q1": "How can I start German lessons?",
-    "faq_a1": "If you are looking for a German course, click on 'Book' and send me a message. Together we will find the right group for you.",
+    "faq_a1": "If you are looking for a German course, click on “Choose a course” and send us a message. Together we will find the right solution for you or your company.",
     "faq_q2": "How many people are in a group?",
-    "faq_a2": "To ensure effective lessons, a group consists of 4–6 students.",
+    "faq_a2": "In order to make the lessons as efficient as possible, there is a maximum of 6 participants in each group.",
     "faq_q3": "What software is required?",
-    "faq_a3": "For German lessons, you only need a PC, laptop, or tablet and a stable internet connection. A free Dropbox account and the Zoom app are recommended.",
+    "faq_a3": "All you need for German lessons is a PC, laptop, or tablet and a stable internet connection. We recommend free Dropbox access and the Zoom app.",
     "faq_q4": "How do I know which course is right for me?",
-    "faq_a4": "Just contact us to choose the right level if you are not sure. We can also conduct a placement test with you.",
+    "faq_a4": "Simply contact us to find the right level for you. ",
 
     "contact_title": "Contact",
     "contact_hello": "<em>Hello</em>",
@@ -285,7 +281,7 @@ const translations = {
 
   },
   "es": {
-    "lang": "Idioma",
+    "lang": "Idioma: ",
     "nav_home": "Inicio",
     "nav_courses": "Cursos de Alemán",
     "nav_how": "Cómo funciona",
@@ -293,14 +289,14 @@ const translations = {
     "nav_contact": "Contacto",
 
     "banner_title": "Aprende alemán con <em>hablantes nativos</em>",
-    "banner_sub": "Aprende en cualquier momento desde casa con clases de alemán en línea en vivo. Desde nivel principiante hasta avanzado.",
+    "banner_sub": "Aprende alemán en cualquier momento desde casa con clases online en directo, desde el nivel principiante hasta el uso competente del idioma.",
     "banner_btn": "Elegir curso",
 
     "services_title": "¿Qué es <em>CleverDeutsch?</em>",
-    "services_sub": "Más de una razón para aprender alemán con nosotros. Te apoyaremos intensivamente y viviremos el idioma contigo.",
+    "services_sub": "Hay más de una razón para aprender alemán con nosotros. Te apoyamos intensamente en el aprendizaje del idioma y lo vivimos contigo.",
     "service1": "100% en línea y flexible",
-    "service2": "Primera clase (60 min) gratis",
-    "service3": "Aprende primero, paga después",
+    "service2": "Primera clase (45 Min) gratis",
+    "service3": "Primero aprende y luego paga las facturas mensualmente.",
     "service4": "Profesores nativos",
 
     "courses_title": "Elige tu <em>tipo de curso</em>",
@@ -308,11 +304,15 @@ const translations = {
     "single_class": "Clases individuales",
     "single_text": "Sé flexible con tu tiempo y tu nivel personal",
     "group_class": "Clases en grupo",
-    "group_text": "Recibe clases de alemán en un grupo adecuado",
+    "group_text": "Para ti y tus amigos en el mismo nivel de idioma <br>- Flexible según su disponibilidad <br>- Adaptado a sus deseos y objetivos",
     "group_extra": "4–6 personas por grupo",
+    "group_class2": "Clases en grupo",
+    "group_text2": "Para empresas y organizaciones <br>- Flexible según la disponibilidad de los participantes <br>- Adaptado a los objetivos del nivel de idioma y la vida profesional cotidiana",
+    "group_extra2": "4–6 personas por grupo",
+
     "book_btn": "Reservar ahora",
-    "note_course": "** El libro no está incluido en el precio del curso. Te ayudaremos a pedirlo. **",
-    "note_course2": "** Cada clase dura 60 minutos. **",
+    "note_course": "** El libro no está incluido en el precio del curso. Estaremos encantados de ayudarte con el pedido. **",
+    "note_course2": "** Una clase tiene siempre una duración de 45 minutos. **",
 
     "cta_text": "Simple </br> Exitoso </br> En línea",
     "cta_btn": "Elegir curso",
@@ -325,12 +325,6 @@ const translations = {
     "Unterricht_4": "También ofrecemos una prueba de nivel gratuita",
     "Unterricht_5": "Habla con nosotros",
     "Unterricht_6": "Puedes hablar directamente con un profesor sobre tus objetivos",
-
-    //GER
-    "GER_tittle": "¿Qué tan bueno es tu <em>alemán?</em>",
-    "GER_subtittle": "Descubre tu nivel de alemán realizando una prueba de nivel gratuita.",
-    "GER_note": "¿Qué es el MCER?",
-    "GER_text": "El MCER (Marco Común Europeo de Referencia para las Lenguas) es un sistema que permite aprender y enseñar idiomas, así como evaluar las competencias lingüísticas, según criterios comunes y comparables. Este marco está reconocido en toda Europa como referencia estándar para describir la competencia lingüística (A1–C2).",
 
     //levels
     "level_tittle": "Niveles de <em>Lengua del MCER</em>",
@@ -350,13 +344,13 @@ const translations = {
     "faq_title": "<em>Preguntas</em> frecuentes",
     "faq_sub": "Todo lo que necesitas saber sobre nuestras clases de alemán",
     "faq_q1": "¿Cómo puedo empezar las clases de alemán?",
-    "faq_a1": "Si buscas un curso de alemán, haz clic en 'Reservar' y envíame un mensaje. Juntos encontraremos el grupo adecuado para ti.",
+    "faq_a1": "Si estás buscando un curso de alemán, haz clic en «Elegir curso» y envíanos un mensaje. Juntos encontraremos la solución adecuada para ti o tu empresa.",
     "faq_q2": "¿Cuántas personas hay en un grupo?",
-    "faq_a2": "Para asegurar clases efectivas, un grupo consta de 4 a 6 estudiantes.",
+    "faq_a2": "Para asegurar clases efectivas, un grupo consta de un máximo de 6 estudiantes.",
     "faq_q3": "¿Qué software se necesita?",
     "faq_a3": "Para las clases de alemán solo necesitas un PC, portátil o tablet y una conexión a internet estable. Se recomienda una cuenta gratuita de Dropbox y la aplicación Zoom.",
     "faq_q4": "¿Cómo sé qué curso es el adecuado para mí?",
-    "faq_a4": "Simplemente contáctanos para elegir el nivel correcto si no estás seguro. También podemos realizar una prueba de nivel contigo.",
+    "faq_a4": "Simplemente contáctanos para encontrar el nivel adecuado para ti. ",
 
     "contact_title": "Contacto",
     "contact_hello": "<em>Hola</em>",
