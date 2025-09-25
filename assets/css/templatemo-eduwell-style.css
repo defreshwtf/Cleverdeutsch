@@ -241,7 +241,7 @@ section {
 
 .section-heading h6 {
   font-size: 13px;
-  text-transform: uppercase;
+  text-transform: none;
   color: #7a7a7a;
   font-weight: 600;
 }
@@ -251,7 +251,7 @@ section {
   line-height: 40px;
   font-size: 28px;
   font-weight: 900;
-  text-transform: capitalize;
+  text-transform: none;
   color: #111;
 }
 
@@ -1316,7 +1316,7 @@ section.page-heading .header-text {
 
 section.page-heading .header-text h4 {
   font-size: 17px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #7a7a7a;
 }
 
