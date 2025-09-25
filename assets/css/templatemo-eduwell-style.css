@@ -1344,6 +1344,7 @@ section.get-info .section-heading {
 
 section.get-info .info-item {
   border-radius: 15px;
+  height: 100%;
   text-align: left;
   padding: 60px 30px 30px 30px;
   box-shadow: 0px 0px 15px rgba(68, 66, 66, 0.06);
