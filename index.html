@@ -52,14 +52,15 @@ https://templatemo.com/tm-573-eduwell
                           <li class="scroll-to-section"><a data-translate="nav_how" href="#funktioniert">So funktioniert es</a></li>
                           <li><a style="cursor: pointer;" data-translate="nav_teachers" id="btn-dozenten">Dozenten</a></li> 
                           <li class="scroll-to-section"><a data-translate="nav_contact" href="#Kontakt">Kontakt</a></li> 
-                                                
+                          <li>                     
                           <div class="language-selector">
-                            <i class="fa fa-globe"></i>
                             <select id="language" onchange="changeLanguage(this.value)">
-                              <option  value="de" selected> Deutsch</option>
+                              <option value="de" disabled selected> Deutsch</option>
+                              <option  value="de"> Deutsch</option>
                               <option value="en"> English</option>
                               <option value="es"> Español</option>
                             </select>
+                            <i class="fa fa-globe"></i>
                           </div>
                         </li>
                       </ul>      
@@ -186,12 +187,20 @@ https://templatemo.com/tm-573-eduwell
 
       <!-- Gruppenunterricht -->
       <div class="col-lg-4 d-flex">
-        <div class="left-info" style="background:#fff; border-top:20px solid #ffd901; border-radius:15px; text-align:center; padding:30px; box-shadow:0px 4px 15px rgba(0,0,0,0.1); display:flex; flex-direction:column; justify-content:space-between; width:100%;">
+        <div class="left-info highlight" style="background:#fff; border-top:20px solid #ffd901; border-radius:15px; text-align:center; padding:30px; box-shadow:0px 4px 15px rgba(0,0,0,0.1); display:flex; flex-direction:column; justify-content:space-between; width:100%; position:relative;">
+          
+          <!-- Badge Sehr beliebt -->
+          <div data-translate="beliebt" class="badge-popular">Sehr beliebt</div>
+          
           <div>
             <div class="center">
               <h3 data-translate="group_class">Gruppenunterricht</h3><br>
             </div>
-            <p data-translate="group_text">für dich und deine Freunde auf dem gleichen Sprachniveau <br>-	flexibel nach eurer Verfügbarkeit <br>-	angepasst an eure Wünsche und Ziele</p> 
+            <p data-translate="group_text">
+              für dich und deine Freunde auf dem gleichen Sprachniveau <br>
+              - flexibel nach eurer Verfügbarkeit <br>
+              - angepasst an eure Wünsche und Ziele
+            </p> 
             <br>
             <hr>
             <h2>50€</h2>
@@ -714,7 +723,6 @@ cookieconsent.run({"notice_banner_type":"simple","consent_type":"implied","palet
 <noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
 <!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
 
-<a href="#" id="open_preferences_center">Update cookies preferences</a>
 
   
 

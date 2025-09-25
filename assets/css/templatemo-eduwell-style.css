@@ -1150,6 +1150,22 @@ section.contact-us .contact-info {
   padding: 20px;
 }
 
+.badge-popular {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #fd3e72, #116eee);
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 section.contact-us .contact-info .icon i {
   float: left;
   margin-right: 15px;
@@ -2109,6 +2125,10 @@ body {
     margin-left: 0%;
   }
 
+  .language-selector i {
+    display: none;
+  }
+
   section.our-courses ul.nacc li .left-image,
   section.our-team ul.nacc li .right-image {
     position: relative;
@@ -2177,6 +2197,7 @@ body {
     height: auto;
     margin-left: 0%;
   }
+
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     display: none;
   }

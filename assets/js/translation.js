@@ -22,6 +22,9 @@ const translations = {
     "courses_sub": "Wir bieten sowohl Einzel- als auch Gruppenunterricht an",
     "single_class": "Einzelunterricht",
     "single_text": "Sei flexible mit deiner Zeit und deinem persönlichen Niveau",
+
+    "beliebt": "sehr beliebt",
+
     "group_class": "Gruppenunterricht",
     "group_text": "für dich und deine Freunde auf dem gleichen Sprachniveau <br>-	flexibel nach eurer Verfügbarkeit <br>-	angepasst an eure Wünsche und Ziele",
     "group_extra": "4–6 Personen in einer Gruppe",
@@ -164,6 +167,9 @@ const translations = {
     "courses_sub": "We offer both individual and group lessons",
     "single_class": "Individual lessons",
     "single_text": "Be flexible with your time and your personal level",
+
+    "beliebt": "Very popular",
+
     "group_class": "Group lessons",
     "group_text": "For you and your friends at the same language level <br>- Flexible according to your availability <br>- Tailored to your wishes and goals",
     "group_extra": "4–6 people per group",
@@ -303,6 +309,9 @@ const translations = {
     "courses_sub": "Ofrecemos clases individuales y en grupo",
     "single_class": "Clases individuales",
     "single_text": "Sé flexible con tu tiempo y tu nivel personal",
+
+    "beliebt": "Muy popular",
+
     "group_class": "Clases en grupo",
     "group_text": "Para ti y tus amigos en el mismo nivel de idioma <br>- Flexible según su disponibilidad <br>- Adaptado a sus deseos y objetivos",
     "group_extra": "4–6 personas por grupo",
