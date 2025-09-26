@@ -125,7 +125,7 @@ const translations = {
     "privacy_6_text": "Die über das Kontaktformular übermittelten Daten werden nur so lange gespeichert, wie es zur Bearbeitung Ihrer Anfrage erforderlich ist, und anschließend gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.",
 
     "privacy_7": "7. Cookies",
-    "privacy_7_text": "Unsere Website verwendet ausschließlich technisch notwendige Cookies. Marketing- oder Tracking-Cookies werden nicht eingesetzt.",
+    "privacy_7_text": "Unsere Website verwendet technisch notwendige Cookies sowie Cookies zu Zwecken von Metriken und statistischen Analysen. Marketing- oder personalisierte Tracking-Cookies werden nicht eingesetzt.",
 
     "privacy_8": "8. Ihre Rechte",
     "privacy_8_text": "Sie haben nach der DSGVO folgende Rechte:",
@@ -267,7 +267,7 @@ const translations = {
     "privacy_6_text": "Data transmitted via the contact form will only be stored as long as necessary to process your inquiry and will then be deleted, unless statutory retention obligations apply.",
 
     "privacy_7": "7. Cookies",
-    "privacy_7_text": "Our website only uses technically necessary cookies. Marketing or tracking cookies are not used.",
+    "privacy_7_text": "Our website uses technically necessary cookies as well as cookies for metrics and statistical analysis purposes. Marketing or personalized tracking cookies are not used.",
 
     "privacy_8": "8. Your Rights",
     "privacy_8_text": "Under the GDPR, you have the following rights:",
@@ -410,7 +410,7 @@ const translations = {
     "privacy_6_text": "Los datos transmitidos a través del formulario de contacto se almacenan únicamente durante el tiempo necesario para procesar su solicitud y posteriormente se eliminan, salvo que existan obligaciones legales de conservación.",
 
     "privacy_7": "7. Cookies",
-    "privacy_7_text": "Nuestro sitio web utiliza únicamente cookies técnicamente necesarias. No se emplean cookies de marketing o seguimiento.",
+    "privacy_7_text": "Nuestro sitio web utiliza cookies técnicamente necesarias así como cookies para fines de métricas y análisis estadísticos. No se emplean cookies de marketing o seguimiento.",
 
     "privacy_8": "8. Sus Derechos",
     "privacy_8_text": "Según el RGPD, usted tiene los siguientes derechos:",
