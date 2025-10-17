@@ -41,10 +41,10 @@ const translations = {
     //faltantes
     //clases
     "Unterricht_title": "Wie beginne ich den <em>Unterricht? </em>",
-    "Unterricht_subtitle": "Teile dein Deutsch-Niveau direct einer Lehrerin oder einem Lehrer mit.",
+    "Unterricht_subtitle": "Teile dein Deutsch-Niveau direkt einer Lehrerin oder einem Lehrer mit.",
     "Unterricht_1": "Wähle deine Kursart",
     "Unterricht_2": "Wir bieten sowohl Einzel- als auch Gruppenunterricht an",
-    "Unterricht_3": "Wähle dein Deutsch- Niveau",
+    "Unterricht_3": "Wähle dein Deutsch-Niveau",
     "Unterricht_4": "Wir bieten auch einen kostenlosen Einstufungstest an",
     "Unterricht_5": "Sprich mit uns",
     "Unterricht_6": "Du kannst direkt mit einer Lehrerin oder einem Lehrer über deine Wünsche sprechen",

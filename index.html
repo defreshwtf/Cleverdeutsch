@@ -82,7 +82,7 @@ https://templatemo.com/tm-573-eduwell
       <div class="row">
         <div class="col-lg-6 align-self-center">
           <div class="header-text">
-            <h2 style="font: size 4vw;" data-translate="banner_title">Deutschlernen mit  <em>Muttersprachlern</em></h2>
+            <h2 data-translate="banner_title">Deutschlernen mit  <em>Muttersprachlern</em></h2>
             <br>
             <h6 data-translate="banner_sub">Lerne jederzeit von zu Hause aus mit live-online Unterricht Deutsch. Vom Beginner bis zum kompetenten Sprachgebrauch. </h6>
             <br>
@@ -154,7 +154,7 @@ https://templatemo.com/tm-573-eduwell
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-12">
-        <div class="section-heading" style="margin-bottom:40px;">
+        <div class="section-heading">
           <h4 data-translate="courses_title" style="font-size:28px; font-weight:bold; text-align:center;">Wähle deine <em>Kursart</em></h4>
           <h6 data-translate="courses_sub" style="font-size:16px; font-weight:normal; color:#555; text-align:center; margin-top:10px;">
             Wir bieten sowohl Einzel-als auch Gruppenunterricht an
@@ -284,7 +284,7 @@ https://templatemo.com/tm-573-eduwell
         <div class="col-lg-6 align-self-center">
           <div class="section-heading">
             <h4 data-translate="Unterricht_title">Wie beginne ich den <em>Unterricht? </em></h4>
-            <p data-translate="Unterricht_subtitle">Teile dein Deutsch-Niveau direct einer Lehrerin oder einem Lehrer mit.</p>
+            <p data-translate="Unterricht_subtitle">Teile dein Deutsch-Niveau direkt einer Lehrerin oder einem Lehrer mit.</p>
           </div>
           <div class="row">
             <div class="col-lg-4">
@@ -302,7 +302,7 @@ https://templatemo.com/tm-573-eduwell
                 <div class="icon">
                   <img src="assets/images/service-icon-06.webp" alt="">
                 </div>
-                <h4 data-translate="Unterricht_3">Wähle dein Deutsch- Niveau</h4>
+                <h4 data-translate="Unterricht_3">Wähle dein Deutsch-Niveau</h4>
                 <p data-translate="Unterricht_4">Wir bieten auch einen kostenlosen Einstufungstest an</p>
                 <br>
               </div>
@@ -439,15 +439,15 @@ https://templatemo.com/tm-573-eduwell
                 <div class="col-lg-2 col-12">
                   <div class="menu">
                     <div class="active gradient-border"><span>A1</span></div>
-                    <div class="gradient-border"><span>A2</span></div>
-                    <div class="gradient-border"><span>B1</span></div>
-                    <div class="gradient-border"><span>B2</span></div>
-                    <div class="gradient-border"><span>C1</span></div>
-                    <div class="gradient-border"><span>C2</span></div>
+                    <div class="gradient-border" href="#GER"><span>A2</span></div>
+                    <div class="gradient-border" href="#GER"><span>B1</span></div>
+                    <div class="gradient-border" href="#GER"><span>B2</span></div>
+                    <div class="gradient-border" href="#GER"><span>C1</span></div>
+                    <div class="gradient-border" href="#GER"><span>C2</span></div>
                   </div>
                 </div>
-                <div class="col-lg-8">
-                  <ul class="nacc">
+                <div class="col-lg-10 col-12">
+                  <ul class="nacc" id="GER">
                     <li class="active">
                       <br></br>
                       <br></br>
@@ -531,10 +531,9 @@ https://templatemo.com/tm-573-eduwell
                           <h4 data-translate="level_C2T">C2 Annähernd muttersprachliche Kenntnisse</h4>
                           <p data-translate="level_C2">Kann praktisch alles, was er/sie liest oder hört, mühelos verstehen.Kann Informationen aus verschiedenen schriftlichen und mündlichen Quellen zusammenfassen und dabei Begründungen und Erklärungen in einer zusammenhängenden Darstellung wiedergeben. Kann sich spontan, sehr flüssig und genau ausdrücken und auch bei komplexeren Sachverhalten feinere Bedeutungsnuancen deutlich machen. </p>
                           </div>
-                        </div>
                       </div>
-                      </li>
-                    </ul>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -594,7 +593,7 @@ https://templatemo.com/tm-573-eduwell
   </div>
   </section>
 
-  <section class="contact-us" id="Kontakt">
+  <section class="contact-us">
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
@@ -602,7 +601,7 @@ https://templatemo.com/tm-573-eduwell
               <img src="assets/images/alemania.webp" alt="">
             </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4" id="Kontakt">
           <form id="contact" action="https://formsubmit.co/patrick@cleverdeutsch.de" method="POST">
             <!--añadir direccion pagina web en value-->
             <div class="row">
@@ -703,7 +702,7 @@ https://templatemo.com/tm-573-eduwell
           </ul>
         </div>
         <div class="col-lg-12">
-          <p class="copyright">Copyright 2021 © CleverDeutsch -  All Rights Reserved. |  
+          <p class="copyright">Copyright 2025 © CleverDeutsch -  All Rights Reserved. |  
             <span><a id="btn-impressum"> Impressum |</a></span>
             <span><a href="Datenschutzerklärung.html" >Datenschutzerklärung</a></span>
         </div>
@@ -794,6 +793,32 @@ cookieconsent.run({"notice_banner_type":"simple","consent_type":"implied","palet
         $(window).scroll(function () {
           checkSection();
         });
+
+        // --- NUEVA LÓGICA para scroll en móvil en la sección our-courses ---
+    $(document).ready(function() {
+      const $tabs = $('.our-courses .menu div');
+      const $contents = $('.our-courses ul.nacc li');
+
+      $tabs.on('click', function() {
+        const index = $(this).index();
+
+        $tabs.removeClass('active');
+        $(this).addClass('active');
+
+        $contents.removeClass('active').eq(index).addClass('active');
+
+        if ($(window).width() <= 767) {
+          setTimeout(function() {
+            const $activeSection = $contents.eq(index);
+            if ($activeSection.length) {
+              $('html, body').animate({
+                scrollTop: $activeSection.offset().top - 50
+              }, 600);
+            }
+          }, 150);
+        }
+      });
+    });
     </script>
     
 </body>
